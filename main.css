@@ -1,26 +1,75 @@
-*{
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-table{
-    margin-top: 20px;
-}
-
-.calendar, th, td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    width: 400px;
-    height: 30px;
+    padding: 20px;
     text-align: center;
 }
 
-hr{
-    margin-top: 30px;
+h1 {
+    color: #333;
+    margin-bottom: 30px;
 }
 
-th{
-    background-color: blue;
+.calendar {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 700px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.calendar th {
+    background-color: #007BFF;
     color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.calendar td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.calendar td:hover {
+    background-color: #e2e6ea;
+}
+
+label, select, input[type="number"] {
+    font-size: 16px;
+    margin: 10px;
+}
+
+select, input[type="number"] {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="button"] {
+    padding: 7px 15px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+hr {
+    margin: 30px 0;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
 }
