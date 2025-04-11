@@ -4,6 +4,10 @@
 
 Projeto de um calendário do mês de Abril de 2025 utilizando HTML, CSS e Java Script.
 
+## Caléndario
+
+<img src="calendario.png">
+
 ## Funções adicionadas 
 
 - Função de escolher uma cor para preencher o dia;
